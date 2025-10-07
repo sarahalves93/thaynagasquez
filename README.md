@@ -7,7 +7,7 @@ A paleta de cores foi mantida conforme o design já utilizado nas transmissões 
 O projeto foi hospedado e indexado no GitHub, e contará com um link personalizado para uso nas plataformas da streamer.</p>
 
 <p align="center">
-<img alt="Projeto DevLinks" src="" width="100%">
+<img alt="Projeto Thayná Gasquez" src=".github/mockup.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
