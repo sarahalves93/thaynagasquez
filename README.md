@@ -19,4 +19,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-© 2025 Sarah Alves. Design, código e café.
+© 2025 Design & Dev | Sarah Alves
