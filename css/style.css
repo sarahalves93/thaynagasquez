@@ -9,7 +9,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-image: url("./img/background.svg");
+  background-image: url("/img/background.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -88,7 +88,7 @@ ul li a:hover {
   left: 24px;
   width: 20px;
   height: 20px;
-  background: url("./img/kick.svg") no-repeat center;
+  background: url("/img/kick.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -98,7 +98,7 @@ ul li a:hover {
   left: 24px;
   width: 24px;
   height: 24px;
-  background: url("./img/twitch.svg") no-repeat center;
+  background: url("/img/twitch.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -108,7 +108,7 @@ ul li a:hover {
   left: 24px;
   width: 24px;
   height: 24px;
-  background: url("./img/yt.svg") no-repeat center;
+  background: url("/img/yt.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -146,6 +146,7 @@ footer {
     min-height: 100vh;
   }
 } */
+
 
 
 
