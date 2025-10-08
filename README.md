@@ -1,4 +1,4 @@
-<h1 align="center">Landing Page de Links</h1>
+<h1 align="justify">Landing Page de Links</h1>
 
 <p align="justify">
 Desenvolvi uma landing page de links personalizada para uma streamer de jogos, com o objetivo de reunir suas principais redes e canais de contato em um único espaço visualmente coerente com sua identidade.</p> 
