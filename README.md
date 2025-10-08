@@ -16,19 +16,19 @@ Desenvolvi uma landing page de links personalizada para uma streamer de jogos, c
       <img src=".github/html.svg" alt="">
     </div>
 
-    <div id="tecnologias">
+  <div id="tecnologias">
       <img src=".github/css.svg" alt="">
     </div>
 
-    <div id="tecnologias">
+  <div id="tecnologias">
       <img src=".github/js.svg" alt="">
     </div>
 
-    <div id="tecnologias">
+  <div id="tecnologias">
       <img src=".github/figma.svg" alt="">
     </div>
 
-    <div id="tecnologias">
+  <div id="tecnologias">
       <img src=".github/github.svg" alt="">
     </div>
 
