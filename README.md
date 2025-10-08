@@ -19,11 +19,11 @@ Desenvolvi uma landing page de links personalizada para uma streamer de jogos, c
 <div>
 <img src=".github/css.svg" alt="">
 <img src=".github/js.svg" alt="">
-<img src=".github/github.svg" alt="">
+<img src=".github/html.svg" alt="">
 </div>
 
 ## 🌐 3. Versionamento
 
-<div><img src=".github/html.svg" alt=""></div>
+<div><img src=".github/github.svg" alt=""></div>
 
 © 2025 Design & Dev | Sarah Alves
