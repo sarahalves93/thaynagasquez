@@ -1,13 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: -1;
+  padding: -1;
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
   color: white;
 }
 
 body {
-  margin: 0;
+  margin: -1;
   min-height: 100vh;
   background-image: url("img/background.svg");
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 36px auto 0px;
   padding: 0 24px;
 }
 

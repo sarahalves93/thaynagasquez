@@ -10,14 +10,20 @@ Desenvolvi uma landing page de links personalizada para uma streamer de jogos, c
 <img alt="Projeto Thayná Gasquez" src=".github/mockup.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🧩 1. Design
 
-<div id="tecnologias">
-<img src=".github/html.svg" alt="">
+<div><img src=".github/figma.svg" alt=""></div>
+
+## 🚀 2. Linguagens
+
+<div>
 <img src=".github/css.svg" alt="">
 <img src=".github/js.svg" alt="">
-<img src=".github/figma.svg" alt="">
 <img src=".github/github.svg" alt="">
 </div>
+
+## 🌐 3. Versionamento
+
+<div><img src=".github/html.svg" alt=""></div>
 
 © 2025 Design & Dev | Sarah Alves
