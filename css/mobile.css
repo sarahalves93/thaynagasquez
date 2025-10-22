@@ -1,48 +1,44 @@
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   html,
   body {
-    overflow-y: auto;
-    height: auto;
     grid-template-columns: 1fr;
-    background-size: cover;
+    overflow-y: auto;
+    max-height: auto;
+  }
+
+  #container-profile {
+    width: 380px;
   }
 
   .profile {
+    gap: 12px;
+    padding: 0px;
     flex-direction: column;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-
-  .foto {
-    width: 150px;
-    height: 150px;
   }
 
   .profile h1 {
-    font-size: 1.5rem;
-    width: auto;
+    width: 380px;
+    text-align: center;
   }
 
-  .profile p {
-    font-size: 1rem;
-  }
-
-  .botoes-profile {
+  .botoes-profile,
+  .botao-profile {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 12px;
-  }
-
-  .botoes-profile .botao-profile {
-    display: inline-flex;
-    width: auto;
-    max-width: none;
-    padding-left: 12px;
-    padding-right: 12px;
+    height: 42px;
+    width: 360px;
+    padding: 0;
     box-sizing: border-box;
     justify-content: center;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-top: 6px;
+  }
+
+  .botao-profile a {
+    width: 380px;
   }
 
   #typewriter {
@@ -50,64 +46,115 @@
   }
 
   #container-lives {
-    margin: 10px auto;
-    width: 50%;
+    margin: 0px auto;
+    width: 90%;
   }
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    margin-top: 0px;
+    gap: 12px;
+    height: 46px;
+    width: 380px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
 
   li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
     font-size: 1rem;
     border-radius: 20px;
-    width: 85px;
+    width: 160px;
+    height: 42px;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .kick a::before,
+  .twitch a::before,
+  .yt a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .kick a {
+    border: 2px solid #00282e;
+  }
+
+  .twitch a {
+    border: 2px solid #00282e;
+  }
+
+  .yt a {
+    border: 2px solid #00282e;
   }
 
   .sociais {
-    margin: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   #container-sociais {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    justify-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .links-sociais {
-    display: contents;
-  }
-
-  .links-sociais a {
-    font-size: 1rem;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
-  .links-sociais img {
-    width: 28px;
-    height: 28px;
-  }
-
-  footer {
-    font-size: 0.8rem;
-    padding: 20px 0;
-    margin-bottom: 0;
-  }
-
-  footer .avatar {
+  .links-sociais span {
     display: none;
   }
 
-  footer p {
-    padding: 0 12px;
+  .links-sociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.2s ease;
   }
+
+  .links-sociais a:hover {
+    transform: scale(1.2);
+    background: #e4b929;
+  }
+
+  .links-sociais img {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+}
+
+footer {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+footer .avatar {
+  display: none;
 }
