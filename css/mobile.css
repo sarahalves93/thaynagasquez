@@ -2,8 +2,9 @@
   html,
   body {
     grid-template-columns: 1fr;
-    overflow-y: auto;
-    max-height: auto;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   }
 
   #container-profile {
@@ -167,3 +168,4 @@
     pointer-events: none;
   }
 }
+
