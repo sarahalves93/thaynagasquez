@@ -9,6 +9,7 @@ html {
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: #096060;
 }
 
 body {
@@ -22,3 +23,4 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
