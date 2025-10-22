@@ -1,0 +1,59 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(60px, 10vw, 120px) clamp(40px, 8vw, 140px);
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile h1 {
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  line-height: 1.2;
+  width: 270px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-top: 16px;
+}
+
+.profile p {
+  font-weight: 400;
+  font-size: clamp(1rem, 1.2vw + 0.5rem, 1.25rem);
+  line-height: 1.5;
+  margin-top: 8px;
+  color: #dedede;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.botao-profile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, #0d6d62, #013a43);
+  border: 2px solid #00282e;
+  border-radius: 50px;
+  box-shadow: 0 4px 16px rgba(0, 40, 46, 0.8);
+  transition: transform 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
+  padding: 6px 20px;
+  margin-top: 24px;
+}
+
+.botao-profile:hover {
+  background: linear-gradient(145deg, #8c6c0e, #d4a622 40%, #ffb02a 90%);
+  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.3),
+    4px 4px 10px rgba(0, 0, 0, 0.4);
+}

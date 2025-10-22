@@ -1,0 +1,111 @@
+#container-lives {
+  margin: 150px auto;
+  max-width: 350px;
+  width: 90%;
+}
+
+.lives p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 800;
+  line-height: 1.2rem;
+  color: #dedede;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  gap: 12px;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 48px;
+  gap: 32px;
+}
+
+ul li,
+ul li a {
+  position: relative;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  background: linear-gradient(180deg, #0d6d62, #013a43);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s ease;
+}
+
+.kick a {
+  border: 2px solid #53fc18;
+  transition: all 0.25s ease;
+}
+
+.kick a:hover {
+  transform: scale(1.08);
+}
+
+.twitch a {
+  border: 2px solid #9146ff;
+  transition: all 0.25s ease;
+}
+
+.twitch a:hover {
+  transform: scale(1.08);
+}
+
+.yt a {
+  border: 2px solid #ff0000;
+  transition: all 0.25s ease;
+}
+
+.yt a:hover {
+  transform: scale(1.08);
+}
+
+.kick a::before,
+.twitch a::before,
+.yt a::before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.kick a::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  width: 20px;
+  height: 20px;
+  background: url("/icons/kick.svg") no-repeat center;
+  background-size: contain;
+}
+
+.twitch a::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  background: url("/icons/twitch.svg") no-repeat center;
+  background-size: contain;
+}
+
+.yt a::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  background: url("/icons/yt.svg") no-repeat center;
+  background-size: contain;
+}

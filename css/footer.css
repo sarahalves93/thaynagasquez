@@ -1,0 +1,24 @@
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 14px;
+  color: #dedede;
+  margin-bottom: 24px;
+}
+
+footer a {
+  color: #dedede;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgba(228, 185, 41, 0.8);
+}
+
+.avatar {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 270px;
+  height: 340px;
+}

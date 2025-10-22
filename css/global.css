@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html {
+  font-family: "Lexend Deca", sans-serif;
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
