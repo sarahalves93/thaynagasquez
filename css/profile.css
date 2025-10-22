@@ -3,7 +3,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: clamp(60px, 10vw, 120px) clamp(40px, 8vw, 140px);
+  padding: clamp(20px, 8vw, 70px) clamp(20px, 6vw, 90px);
+  margin: 0px auto;
+  padding-bottom: 0;
 }
 
 .foto {
@@ -16,7 +18,7 @@
   font-weight: 600;
   font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
   line-height: 1.2;
-  width: 270px;
+  width: 300px;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   margin-top: 16px;
