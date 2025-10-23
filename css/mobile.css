@@ -164,11 +164,12 @@
   }
 
   .avatar-canto {
-    position: absolute;
+    position: fixed;
     right: 12px;
     bottom: 0px;
     width: 120px;
     pointer-events: none;
+    z-index: 10;
   }
 }
 
@@ -200,4 +201,5 @@
     justify-content: center;
   }
 }
+
 
