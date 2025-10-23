@@ -1,10 +1,11 @@
 @media (max-width: 800px) {
   html,
   body {
-    grid-template-columns: 1fr;
-    min-height: 100vh;
     background-color: #0C6A64;
-    -webkit-overflow-scrolling: touch;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
   }
 
   #container-profile {
@@ -162,14 +163,14 @@
   }
 
 .avatar-canto {
-  position: fixed !important;
-  right: 12px;
-  bottom: 0px;
-  width: 120px;
-  z-index: 20;
-  pointer-events: none;
-  transform: none !important;
-}
+    position: fixed;
+    right: 12px;
+    bottom: 0px;
+    width: 120px;
+    pointer-events: none;
+    z-index: 20;
+    transform: none;
+  }
 }
 
 /* responsivo acima de 1440px */
@@ -200,6 +201,7 @@
     justify-content: center;
   }
 }
+
 
 
 
