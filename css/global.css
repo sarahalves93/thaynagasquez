@@ -4,23 +4,27 @@
 }
 
 html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Lexend Deca", sans-serif;
   scroll-behavior: smooth;
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: #096060;
 }
 
 body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-image: url("/img/background.svg");
+  background-image: url("img/background.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
+
 
