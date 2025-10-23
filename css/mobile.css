@@ -163,14 +163,15 @@
     height: 0px;
   }
 
-  .avatar-canto {
-    position: fixed;
-    right: 12px;
-    bottom: 0px;
-    width: 120px;
-    pointer-events: none;
-    z-index: 10;
-  }
+.avatar-canto {
+  position: fixed !important;
+  right: 12px;
+  bottom: 0px;
+  width: 120px;
+  z-index: 20;
+  pointer-events: none;
+  transform: none !important;
+}
 }
 
 /* responsivo acima de 1440px */
@@ -201,6 +202,7 @@
     justify-content: center;
   }
 }
+
 
 
 
