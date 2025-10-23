@@ -5,7 +5,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     min-height: 100vh;
-    background-color: #0d6d62;
+    background-color: transparent;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -165,9 +165,9 @@
 
   .avatar-canto {
     position: absolute;
-    right: 20px;
-    bottom: 10px;
-    width: 140px;
+    right: 12px;
+    bottom: 0px;
+    width: 120px;
     pointer-events: none;
   }
 }
@@ -200,3 +200,4 @@
     justify-content: center;
   }
 }
+
