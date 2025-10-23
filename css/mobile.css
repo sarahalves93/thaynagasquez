@@ -163,7 +163,8 @@
   }
 
   .avatar-canto {
-    position: fixed;
+    position: absolute !important;
+
     right: 0px;
     bottom: 0px;
     width: 160px;
@@ -171,4 +172,31 @@
   }
 }
 
+/* responsivo acima de 1440px */
 
+@media (min-width: 1440px) {
+  .botoes-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .botao-profile {
+    width: 180px;
+    height: 48px;
+  }
+
+  .profile {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #container-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
