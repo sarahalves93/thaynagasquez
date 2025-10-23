@@ -3,9 +3,9 @@
   body {
     grid-template-columns: 1fr;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     min-height: 100vh;
-    background-color: transparent;
+    background-color: #0C6A64;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -201,5 +201,6 @@
     justify-content: center;
   }
 }
+
 
 
