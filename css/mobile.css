@@ -80,6 +80,7 @@
     padding: 0;
     text-decoration: none;
     color: #fff;
+    margin-top: 12px;
   }
 
   .kick a::before,
@@ -163,11 +164,10 @@
   }
 
   .avatar-canto {
-    position: absolute !important;
-
-    right: 0px;
-    bottom: 0px;
-    width: 160px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 140px;
     pointer-events: none;
   }
 }
