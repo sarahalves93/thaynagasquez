@@ -17,7 +17,7 @@ html {
 body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-image: url("/img/background.svg");
+  background-image: url("/img/background.svg") !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -26,4 +26,5 @@ body {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
+
 
